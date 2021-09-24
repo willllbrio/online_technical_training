@@ -6,7 +6,7 @@
     'summary': """Academy app to manage Training""",
     
     'description': """
-        Academy Modole to manage Training:
+        Academy Modele to manage Training:
         - Courses
         - Sessions
         - Attendees
@@ -19,7 +19,7 @@
     'category': 'Training',
     'version': '0.1',
     
-    'depends': ['base'],
+    'depends': ['sale'],
     
     'data': [
         'security/academy_security.xml',
@@ -27,6 +27,7 @@
         'views/academy_menuitems.xml',
         'views/course_views.xml',  
         'views/session_views.xml',
+        'views/sale_views_inherit.xml',
        
     ],
     
