@@ -6,7 +6,7 @@
     'summary': """Academy app to manage Training""",
     
     'description': """
-        Academy Modole to manage Training:
+        Academy Modele to manage Training:
         - Courses
         - Sessions
         - Attendees
