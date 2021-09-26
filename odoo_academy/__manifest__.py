@@ -19,7 +19,7 @@
     'category': 'Training',
     'version': '0.1',
     
-    'depends': ['base','sale'],
+    'depends': ['sale'],
     
     'data': [
         'security/academy_security.xml',
