@@ -45,6 +45,3 @@ class Session(models.Model):
                 record.duration = (record.end_date - record.start_date).days + 1
             else:
                 continue
-    
-    
-    

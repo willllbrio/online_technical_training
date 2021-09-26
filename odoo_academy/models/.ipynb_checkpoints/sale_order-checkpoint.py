@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+#
 from odoo import models,fields,api
 
 class SaleOrder(models.Model):
@@ -13,4 +13,4 @@ class SaleOrder(models.Model):
 		 							related='session_id.instructor_id')
 
 	student_ids = fields.Many2many(string='Students',
-								   related='session_id.student_id')
+								   related='session_id.student_ids')
