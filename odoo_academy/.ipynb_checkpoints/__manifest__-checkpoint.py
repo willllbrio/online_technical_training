@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#
+
 {
     'name': 'Odoo Academy',
     
@@ -19,9 +19,7 @@
     'category': 'Training',
     'version': '0.1',
     
-    'depends': [
-        'sale',
-    ],
+    'depends': ['sale'],
     
     'data': [
         'security/academy_security.xml',
